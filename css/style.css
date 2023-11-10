@@ -86,9 +86,11 @@ main img{
 
 footer img{
     width: 50px;
+    padding: 5px;
 }
 footer{
     background-color:#FFC436;
+    padding: 10px;
 }
     
 .colorNav{
