@@ -11,7 +11,7 @@ font-family: 'Work Sans', sans-serif;*/
     box-sizing: border-box;
 }
 main img{
-    margin: 0px 300px;
+    margin: 10px 300px;
 }
 html{
     font-family: 'Work Sans', sans-serif;
@@ -19,12 +19,15 @@ html{
 }
 
 h1{
-    text-align: center;
+ 
     text-decoration: underline;
     font-size: 3rem;
-    color: #ffffff;
+    color: #FFC436;
     background-color:#191D88;
     margin: 10px 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 
 }
@@ -33,7 +36,10 @@ h2{
     font-size: 2rem;
     text-decoration: underline;
     background-color:#FFC436;
-    margin: 15px 10px;
+    margin: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
 h3{
@@ -43,24 +49,30 @@ h3{
 
 }
 p{
-    font-size: 1.5em;
+    font-size: 1.5rem;
     color:#FFC436;
     background-color: #191D88;
-    margin: 20px 0px;
-    padding: 15px;
+    margin: 1px 0px;
+    padding: 5px;
 
 }
 
     /* header */
 header{
     font-size: 1.5em;
+   
 }
 
 /* main index */
 .banner{
     background-image: url(../cabj/fotodefondo.jpg);
     background-size: contain;
-    height: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
   
 }
 .descripcion img{
@@ -89,6 +101,31 @@ footer{
     width: 60px;
 }
 
+
+@media screen and (max-width: 500px){
+    main img{
+        margin: 10px 0px;
+        height: 180px;
+
+
+    }
+    .descripcion img{
+        height: 180px;
+          
+    }
+    h1{
+        text-align: center;
+        text-decoration: underline;
+        font-size: 2rem;
+        color: #FFC436;
+        background-color:#191D88;
+        margin: 10px 100px;
+     
+    
+    }
+    
+    
+}
 /*
 <!-- Logo
      <a href="#"><img src="./cabj/logo.png" alt="Logo de Boca"></a>
