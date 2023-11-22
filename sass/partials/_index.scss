@@ -1,0 +1,32 @@
+/* main index*/
+.banner{
+    background-image: url(../cabj/fotodefondo.jpg);
+    background-size: contain;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    :hover{ 
+        color:beige ;
+    }
+    h1{
+ 
+        text-decoration: underline;
+        font-size: 3rem;
+        color: $amarillo;
+        background-color:$azul1;
+        margin: 10px 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    
+    }
+}
+.descripcion img{
+    height: 280px;
+}
+main img{
+    margin: 10px 300px;
+    
+}

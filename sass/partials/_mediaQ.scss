@@ -1,0 +1,22 @@
+@media screen and (max-width: 500px){
+    main img{
+        margin: 10px 0px;
+        height: 180px;
+
+
+    }
+    .descripcion img{
+        height: 180px;
+          
+    }
+    h1{
+        text-align: center;
+        text-decoration: underline;
+        font-size: 2rem;
+        color: $amarillo;
+        background-color:$azul1;
+        margin: 10px 100px;
+    
+    }
+
+}

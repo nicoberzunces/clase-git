@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family:$font;
+    font-size: 62.5%;
+}
+
+h1{
+ 
+    text-decoration: underline;
+    font-size: 3rem;
+    color: $amarillo;
+    background-color:$azul1;
+    margin: 10px 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+h2{
+    font-size: 2rem;
+    text-decoration: underline;
+    background-color:$amarillo;
+    margin: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+h3{
+    font-size: 1rem;
+    text-decoration: underline;
+    background-color:$amarillo;
+
+}
+p{
+    font-size: 1.5rem;
+    color:$amarillo;
+    background-color: $azul1;
+    margin: 1px 0px;
+    padding: 5px;
+}
