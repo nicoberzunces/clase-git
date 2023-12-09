@@ -46,7 +46,7 @@ p {
   padding: 5px;
 }
 
-Header
+/*Header*/
 header {
   font-size: 1.5em;
 }
@@ -89,7 +89,8 @@ header .colorNav a {
 }
 
 main img {
-  margin: 10px 300px;
+  margin: 10px 350px;
+  height: 300px;
 }
 
 /* Footer */
@@ -104,8 +105,8 @@ footer img {
 
 @media screen and (max-width: 500px) {
   main img {
-    margin: 10px 20px;
-    height: 180px;
+    margin: 10px 10px;
+    height: 150px;
   }
   .descripcion img {
     height: 180px;

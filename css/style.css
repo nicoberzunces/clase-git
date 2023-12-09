@@ -60,7 +60,7 @@ header{
    
 }
 
-/* main index */
+/* main index 
 .banner{
     background-image: url(../cabj/fotodefondo.jpg);
     background-size: contain;
@@ -80,7 +80,7 @@ main img{
 main img{
     margin: 10px 300px;
 }
-/* Footer */
+/* Footer 
 
 footer img{
     width: 50px;
